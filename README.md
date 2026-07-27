@@ -1,6 +1,6 @@
 🏠 BrickView - Real Estate Analytics Platform
 ---
-BrickView is a Real Estate Analytics Platform developed in python, streamlit and mysql which provides interactive dashboard for analysis of property listings, sales, agents and buyers with filters, visualizations, crud operations and sql analytics.
+BrickView is a Real Estate Analytics Platform developed in Python, Streamlit and MySql which provides interactive dashboard for analysis of property listings, sales, agents and buyers with filters, visualizations, crud operations and sql analytics.
 
 ---
 
