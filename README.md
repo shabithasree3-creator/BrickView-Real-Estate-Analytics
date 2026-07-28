@@ -104,6 +104,22 @@ BrickView/
 ### SQL Queries
 ![SQL Queries](screenshots/SQL_Queries.png)
 ```
+## Application Screenshots
+
+### Home
+![Home](screenshots/Home.png)
+
+### Filters
+![Filters](screenshots/Filters.png)
+
+### Visualizations
+![Visualizations](screenshots/Visualizations.png)
+
+### CRUD
+![CRUD](screenshots/CRUD.png)
+
+### SQL Queries
+![SQL Queries](screenshots/SQL_Queries.png)
 ---
 ## ⚙️ Installation
 ### Clone the repository
