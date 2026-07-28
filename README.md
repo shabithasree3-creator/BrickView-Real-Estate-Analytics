@@ -66,27 +66,45 @@ BrickView is created to explore the real estate data with ease and includes the 
 - MySQL-connector
 ---
 ### 📂 Project Structure
+
 ```text
-BrickView/
+BrickView-Real-Estate-Analytics/
 │
-├── app.py
-├── database.py
-├── requirements.txt
+├── dashboard/
+│   ├── app.py
+│   ├── database.py
+│   └── pages/
+│       ├── 1_Filters.py
+│       ├── 2_Visualizations.py
+│       ├── 3_CRUD.py
+│       └── 4_SQL_Queries.py
+│
 ├── data/
-│  ├── listings_final_expanded.json
-│  ├── property_attributes_final_expanded.json
-│  ├── agents_cleaned.json
-│  ├── buyers_cleaned.json
-│  └── sales_cleaned.csv
+│   ├── listings_final_expanded.json
+│   ├── property_attributes_final_expanded.json
+│   ├── agents_cleaned.json
+│   ├── buyers_cleaned.json
+│   └── sales_cleaned.csv
 │
-├── pages/
-│  ├── 1_Filters.py
-│  ├── 2_Visualizations.py
-│  ├── 3_CRUD.py
-│  └── 4_SQL_Queries.py
+├── notebook/
+│   └── BrickView_analysis.ipynb
 │
-└── notebook/
-└── BrickView_analysis.ipynb
+├── screenshots/
+│   ├── home.png
+│   ├── filters.png
+│   ├── filter2.png
+│   ├── visualization.png
+│   ├── CRUD.png
+│   ├── CRUD1.png
+│   ├── CRUD2.png
+│   ├── CRUD3.png
+│   ├── CRUD4.png
+│   ├── queries.png
+│   └── queries1.png
+│
+├── BrickView_Presentation.pptx
+└── README.md
+```
 ---
 ## ⚙️ Installation
 ### Clone the repository
