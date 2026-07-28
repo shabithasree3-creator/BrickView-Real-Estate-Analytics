@@ -140,20 +140,43 @@ streamlit run app.py
 
 ## 📸 Application Screenshots
 
-### Home
-![Home](screenshots/Home.png)
+### 🏠 Home Dashboard
+![Home](screenshots/home.png)
 
-### Filters
-![Filters](screenshots/Filters.png)
+### 🎛 Filters
+#### Filter 1
+![Filter 1](screenshots/filters.png)
 
-### Visualizations
-![Visualizations](screenshots/Visualizations.png)
+#### Filter 2
+![Filter 2](screenshots/filter2.png)
 
-### CRUD
-![CRUD](screenshots/CRUD.png)
+### 📈 Visualizations
+![Visualizations](screenshots/visualization.png)
 
-### SQL Queries
-![SQL Queries](screenshots/SQL_Queries.png)
+### 🛠 CRUD Operations
+
+#### Add Property
+![Create](screenshots/CRUD.png)
+
+#### View Property
+![Read](screenshots/CRUD1.png)
+
+#### Update Property
+![Update](screenshots/CRUD2.png)
+
+#### Delete Property
+![Delete](screenshots/CRUD3.png)
+
+#### Search Property
+![Search](screenshots/CRUD4.png)
+
+### 💻 SQL Query Analysis
+
+#### Query 1
+![SQL Query 1](screenshots/queries.png)
+
+#### Query 2
+![SQL Query 2](screenshots/queries1.png)
 ## 👩‍💻 Author
 Shabitha Sree
 GitHub: https://github.com/shabithasree3-creator
