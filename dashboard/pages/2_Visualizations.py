@@ -14,7 +14,9 @@ c1,c2=st.columns(2)
 
 with c1:
     df=pd.read_sql("select City,count(*) Total from listings group by City order by Total desc",conn)
-    fig=px.bar(df,x="City",y="Total",title="Properties by City",text_auto=True,color="Total",color_continuous_scale="Blues")
+    fig=px.treemap(df,path=["City"],values="Total",color="Total",
+                   color_continuous_scale="Blues",
+                   title="Properties by City")
     fig.update_layout(title_x=0.5)
     st.plotly_chart(fig,use_container_width=True)
 
@@ -37,6 +39,7 @@ with c4:
     fig=px.bar(df,x="Name",y="deals_closed",title="Top 10 Agents by Deals Closed",text_auto=True,color="deals_closed",color_continuous_scale="Viridis")
     fig.update_layout(title_x=0.5,xaxis_title="Agent",yaxis_title="Deals Closed")
     st.plotly_chart(fig,use_container_width=True)
+
 
 df=pd.read_sql("select date_format(date_sold,'%Y-%m') Month,count(*) Sales from sales group by Month order by Month",conn)
 fig=px.line(df,x="Month",y="Sales",markers=True,title="Monthly Sales Trend")
