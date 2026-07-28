@@ -155,19 +155,19 @@ streamlit run app.py
 
 ### 🛠 CRUD Operations
 
-#### Add Property
+#### Add
 ![Create](screenshots/CRUD.png)
 
-#### View Property
+#### View
 ![Read](screenshots/CRUD1.png)
 
-#### Update Property
+#### Update
 ![Update](screenshots/CRUD2.png)
 
-#### Delete Property
+#### Delete
 ![Delete](screenshots/CRUD3.png)
 
-#### Search Property
+#### Delete
 ![Search](screenshots/CRUD4.png)
 
 ### 💻 SQL Query Analysis
